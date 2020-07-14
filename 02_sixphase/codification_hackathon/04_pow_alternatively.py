@@ -1,19 +1,25 @@
 n = int(input())
 
-i, j = 0, 0
-flag = False
+i , j = 0, 0
 
-if n % 2 == 0:
-    n = int(n/2)
+pow_2, pow_3 = [], []
+p2 = n - int(n/2)
+if n%2 == 0:
+    p3 = p2
 else:
-    n = n - int(n/2)
-    flag = True
+    p3 = n - int(n/2) - 1
 
-
-for k in range(0, n):
-    print(2**i, end=" ")
-    if flag and k == n-1:
-        break
-    print(3**j, end=" ")
+for _ in range(0, p2):
+    pow_2.append(str(2**i))
     i += 1
+
+for _ in range(0, p3):
+    pow_3.append(str(3**j))
     j += 1
+
+for i in range(len(pow_2)):
+    print(pow_2[i], end=" ")
+    try:
+        print(pow_3[i], end=" ")
+    except(IndexError):
+        break
