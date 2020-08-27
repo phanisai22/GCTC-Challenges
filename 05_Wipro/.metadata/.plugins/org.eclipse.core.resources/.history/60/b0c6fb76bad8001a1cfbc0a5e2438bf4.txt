@@ -1,0 +1,26 @@
+package com.JavaFundamentals;
+
+public class ReverseNumber {
+	public static void main(String[] args) {	
+//		int len = args.length;
+//		int number = Integer.parseInt(args[0]);
+		int len = 4;
+		int number = 1234;
+		int result = 0;
+		int reminder;
+		int numberOfDigits = 1;
+		
+		while (number > 0) {
+			reminder = number % 10;
+			number /= 10;
+			for ( int i = 0; i < len - 1; i++) {
+				numberOfDigits *= 10;
+			}
+			result += (numberOfDigits * reminder);
+			len--;
+		}
+		
+		
+		System.out.println(result);
+	}
+}

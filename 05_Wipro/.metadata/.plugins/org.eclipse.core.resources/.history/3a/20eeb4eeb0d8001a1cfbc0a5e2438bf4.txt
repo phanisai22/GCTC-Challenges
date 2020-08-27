@@ -1,0 +1,14 @@
+package com.JavaFundamentals;
+
+public class ColorCodes {
+	public static void main(String[] args) {
+		String[] colorCodes = {"Red", "Blue", "Green", "Orange", "Yellow", "White"};
+		for (String color : colorCodes) {
+			if (args[0].charAt(0) == color.charAt(0)) {
+				System.out.println(color);
+				return;
+			}
+		}
+		System.out.println("Invalid code");
+	}
+}

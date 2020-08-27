@@ -1,0 +1,13 @@
+package com.OOPS.StringBuffer;
+
+public class Palindrome {
+	
+	public static void main(String[] args) {
+		
+		StringBuffer text = new StringBuffer("Malayalam");
+		if (text.equals(text.reverse())) System.out.println("Palindrome");
+		else System.out.println("Not a palindrome");
+		
+	}
+
+}

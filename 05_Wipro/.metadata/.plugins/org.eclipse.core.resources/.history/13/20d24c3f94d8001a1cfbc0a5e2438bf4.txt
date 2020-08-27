@@ -1,0 +1,9 @@
+package com.JavaFundamentals;
+
+public class CombineStrings {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,7 @@
+package com.JavaFundamentals;
+
+public class ColorCodes {
+	public static void main(String[] args) {
+		
+	}
+}

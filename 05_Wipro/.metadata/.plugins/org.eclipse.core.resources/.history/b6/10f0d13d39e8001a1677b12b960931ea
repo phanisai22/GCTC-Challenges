@@ -1,0 +1,39 @@
+package com.OOPS.MiniProject;
+
+public class Video {
+	String videoName;
+	boolean checkout;
+	int rating;	
+	
+	public Video() {
+	}
+	
+	public Video(String videoName) {
+		this.videoName = videoName;
+	}
+	
+	public String getVideoName() {
+		return videoName;
+	}
+	
+	public void doCheckout() {
+		checkout = false;
+	}
+	
+	public void doReturn() {
+		checkout = true;
+	}
+	
+	public void receiveRating(int rating) {
+		this.rating = rating;
+	}
+	
+	public int getRating() {
+		return rating;
+	}
+
+	public boolean getCheckout() {
+		return checkout;
+	}
+
+}

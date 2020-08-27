@@ -1,0 +1,10 @@
+package com.JavaFundamentals;
+
+public class CheckInput {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

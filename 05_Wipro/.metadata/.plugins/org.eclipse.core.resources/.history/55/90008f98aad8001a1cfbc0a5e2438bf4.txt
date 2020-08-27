@@ -1,0 +1,10 @@
+package com.JavaFundamentals;
+
+public class BasedInterest {
+	public static void main(String[] args) {
+		String gender = args[0];
+		int age = Integer.parseInt(args[1]);
+		
+	}
+
+}

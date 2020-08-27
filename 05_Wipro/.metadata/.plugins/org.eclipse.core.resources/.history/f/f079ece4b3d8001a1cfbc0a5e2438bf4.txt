@@ -1,0 +1,10 @@
+package com.JavaFundamentals;
+
+public class PrimeNumbers {
+	public static void main(String[] args) {
+		int start = 10;
+		int end = 99;
+		
+		for (int i = start, i <= emd)
+	}
+}

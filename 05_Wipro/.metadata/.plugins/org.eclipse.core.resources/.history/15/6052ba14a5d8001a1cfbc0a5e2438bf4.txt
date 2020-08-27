@@ -1,0 +1,9 @@
+package com.JavaFundamentals;
+
+public class CheckInput {
+
+	public static void main(String[] n) {
+		
+	}
+
+}

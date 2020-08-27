@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.aug2020&apos; to &apos;com.EMICalculator&apos;&#x0A;- Original project: &apos;ClassWork&apos;&#x0A;- Original element: &apos;ClassWork/src/com.aug2020&apos;&#x0A;- Renamed element: &apos;ClassWork/src/com.EMICalculator&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.aug2020&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.aug2020" name="com.EMICalculator" qualified="false" references="true" stamp="1597205588728" textual="false" version="1.0"/>
+</session>

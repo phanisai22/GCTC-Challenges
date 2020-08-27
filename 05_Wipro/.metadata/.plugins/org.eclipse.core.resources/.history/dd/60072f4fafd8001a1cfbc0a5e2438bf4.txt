@@ -1,0 +1,17 @@
+package com.JavaFundamentals;
+
+public class GetMonthName {
+
+	public static void main(String[] args) {
+		int month = Integer.parseInt(args[0]);
+		
+		if (month > 12 && month < 1 ) System.out.println("Invalid month");
+		
+		String[] allMonths = { "January", "February", "March", "April", "May", "June", 
+				"July", "August", "September", "October", "November", "December"};
+			
+		System.out.println(allMonths[month - 1]);
+		
+	}
+
+}

@@ -1,0 +1,8 @@
+package com.OOPS.Calculator;
+
+public class Main {
+	public static void main(String[] args) {
+		System.out.println(Calculator.powerInt(23, 22));
+		System.out.println(Calculator.powerDouble(45, 22));
+	}
+}

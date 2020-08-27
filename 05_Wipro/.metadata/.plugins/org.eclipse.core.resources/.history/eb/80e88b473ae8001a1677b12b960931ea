@@ -1,0 +1,20 @@
+package com.OOPS.MiniProject;
+
+public class VideoStore extends Video {
+	Video store;
+	
+	public void addVideo(String name) {
+		store = new Video(name);
+	}
+	
+	@Override
+	public String getVideoName() {
+		return super.getVideoName();
+	}
+	
+	public void listInventory() {
+		System.out.format("%-20s%-20s%-20s\n", "Video Name", "CheckOut Status", "Rating");
+		System.out.format("%-20s%-20s%-20s\n\n", store.getVideoName(), store.getCheckout(), store.getRating());
+	}
+	
+}

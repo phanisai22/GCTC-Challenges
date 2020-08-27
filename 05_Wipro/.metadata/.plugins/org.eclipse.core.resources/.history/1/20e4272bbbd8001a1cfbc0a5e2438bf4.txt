@@ -1,0 +1,19 @@
+package com.JavaFundamentals;
+
+public class Palindrome {
+	public static void main(String[] args) {
+		int number = 1234;
+		int reversed = 0;
+		int reminder;
+		
+		while (number > 0) {
+			reminder = number % 10;
+			reversed = reversed * 10 + reminder;
+			number /= 10;
+		}
+		
+		if (number == reversed) System.out.println(number + " is a palindrome");
+		else System.out.println(number + " is not a palindrome");
+	}
+}
+

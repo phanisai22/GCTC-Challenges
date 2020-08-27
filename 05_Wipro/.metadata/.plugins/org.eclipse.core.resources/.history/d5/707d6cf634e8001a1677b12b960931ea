@@ -1,0 +1,19 @@
+package com.OOPS.MiniProject;
+
+import java.util.ArrayList;
+
+public class VideoStore extends Video {
+	ArrayList<Video> store;
+	
+	public void addVideo(String name) {
+		store.add(new Video(name));
+	}
+	
+	public void listInventory() {
+		System.out.format("%-20s%-20s%-20s\n", "Video Name", "CheckOut Status", "Rating");
+		for (Video video : store) {
+			System.out.format("%-20s%-20s%-20s", video.getVideoName(), video.getCheckout(), video.getRating());
+		}
+	}
+	
+}

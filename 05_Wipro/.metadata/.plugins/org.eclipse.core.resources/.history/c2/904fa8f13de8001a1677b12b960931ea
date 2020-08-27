@@ -1,0 +1,55 @@
+package com.OOPS.MiniProject;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		VideoStore newStore = new VideoStore();
+		int choice;
+		String name = "";
+		
+		do {
+			System.out.println("\nMAIN MENU\n"
+							+ "=========\n"
+							+ "1. Add Video\n"
+							+ "2. Check Out Video\n"
+							+ "3. Return Video\n"
+							+ "4. Receive Rating\n"
+							+ "5. List Inventory\n"
+							+ "6. Exit.\n\n"
+							+ "Enter Your Choice (1 - 6) : ");
+			
+			choice = sc.nextByte();
+			
+			switch (choice) {
+			case 1:
+				name = sc.nextLine();
+				newStore.addVideo(name);
+				System.out.println("Video \""+ name +"\" added successfully.");
+				break;
+				
+			case 2:
+				System.out.println("Video Name : ");
+				name += sc.nextLine();
+				if (newStore.doCheckout(name))
+					System.out.println("Video \""+ name +"\" checkedout successfully.");
+				break;
+				
+			case 5:
+				newStore.listInventory();
+				break;
+			case 6:
+				System.out.println("See you...");
+				choice = -1;
+				break;
+			default:
+				System.out.println("Enter valid option.");
+				break;
+			}
+			
+		} while(choice != -1);
+		
+		sc.close();
+	}
+}
