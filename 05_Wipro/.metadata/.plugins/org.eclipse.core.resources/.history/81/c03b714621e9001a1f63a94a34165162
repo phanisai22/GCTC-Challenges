@@ -1,0 +1,6 @@
+package com.Package.Interface.Music;
+
+public interface Playable {
+
+    void play();
+}

@@ -1,0 +1,11 @@
+package com.Package.Automobile.TwoWheeler;
+
+import com.Package.Automobile.Vehicle;
+
+public class Hero extends Vehicle {
+
+    private int speed = 0;
+    private String radio = "On";
+
+    
+}

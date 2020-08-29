@@ -1,0 +1,14 @@
+package com.Package.Interface.Music.String;
+
+import com.Package.Interface.Music.Playable;
+
+public class Veena implements Playable {
+
+    @Override
+    public void play() {
+
+        System.out.println("Play the Veena...");
+
+    }
+
+}

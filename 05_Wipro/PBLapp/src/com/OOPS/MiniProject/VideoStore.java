@@ -44,7 +44,7 @@ public class VideoStore extends Video {
 	public void listInventory() {
 		System.out.format("%-20s%-20s%-20s\n", "Video Name", "CheckOut Status", "Rating");
 		for (Video video : store) {
-			System.out.format("%-20s%-20s%-20s\n", video.getVideoName(), video.getCheckout(), video.getRating());			
+			System.out.format("%-20s%-20s%-20s\n", video.getVideoName(), video.getCheckout(), video.getRating());
 		}
 		
 		System.out.println();
