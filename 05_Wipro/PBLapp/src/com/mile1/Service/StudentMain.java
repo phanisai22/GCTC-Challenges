@@ -37,6 +37,7 @@ public class StudentMain {
 
     public static void main(String[] args) {
         StudentMain initdata = new StudentMain();
+        initdata.getClass();
         StudentReport report = new StudentReport();
 
         for (Student student : data) {

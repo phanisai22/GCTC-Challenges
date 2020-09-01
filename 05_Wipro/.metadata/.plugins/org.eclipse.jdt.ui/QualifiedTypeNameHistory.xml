@@ -48,4 +48,5 @@
     <fullyQualifiedTypeName name="com.Package.automobile.ship.Compartment"/>
     <fullyQualifiedTypeName name="com.Package.automobile.ship.Cubiod"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="org.junit.Test"/>
 </qualifiedTypeNameHistroy>
