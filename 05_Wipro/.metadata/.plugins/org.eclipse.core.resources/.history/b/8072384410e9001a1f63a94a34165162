@@ -1,8 +1,0 @@
-package com.Package.automobile.ship;
-
-public class Main {
-
-    public static void main(String[] args) {
-        Compartment compartment = new Compartment();
-    }
-}

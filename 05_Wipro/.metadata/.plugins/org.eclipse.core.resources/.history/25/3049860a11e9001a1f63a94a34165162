@@ -1,5 +1,0 @@
-package com.Package.automobile.ship;
-
-public class Cubiod extends Compartment{
-
-}

@@ -1,0 +1,4 @@
+Write a program to count the number of times a chat appears in a File.
+
+[Note : The character is case insensitive... i.e, 'a' and 'A' are considered to be the
+same]

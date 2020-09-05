@@ -1,5 +1,0 @@
-package com.Package.automobile.ship;
-
-public abstract class compartment {
-
-}
