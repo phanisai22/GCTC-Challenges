@@ -2,8 +2,8 @@ package com.mile1.test;
 
 import static org.junit.Assert.*;
 
-import com.mile1.Service.StudentReport;
 import com.mile1.bean.Student;
+import com.mile1.service.StudentReport;
 
 import org.junit.Test;
 

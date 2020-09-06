@@ -1,0 +1,18 @@
+package com.javafundamentals;
+
+public class SumOfDigits {
+	public static void main(String[] args) {	
+		int number = Integer.parseInt(args[0]);
+		int sum = 0;
+		int reminder;
+		
+		while (number > 0) {
+			reminder = number % 10;
+			number /= 10;
+			sum += reminder;
+		}
+		
+		
+		System.out.println(sum);
+	}
+}

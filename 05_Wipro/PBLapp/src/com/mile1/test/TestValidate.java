@@ -1,10 +1,10 @@
 package com.mile1.test;
 
-import com.mile1.Exception.NullMarksArrayException;
-import com.mile1.Exception.NullNameException;
-import com.mile1.Exception.NullStudentObjectException;
-import com.mile1.Service.StudentReport;
 import com.mile1.bean.Student;
+import com.mile1.exception.NullMarksArrayException;
+import com.mile1.exception.NullNameException;
+import com.mile1.exception.NullStudentObjectException;
+import com.mile1.service.StudentReport;
 
 import org.junit.Test;
 
