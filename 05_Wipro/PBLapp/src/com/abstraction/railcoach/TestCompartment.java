@@ -1,4 +1,4 @@
-package com.Abstraction.RailCoach;
+package com.abstraction.railcoach;
 
 import java.util.Random;
 

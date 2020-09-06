@@ -14,7 +14,7 @@ public class CopyFiles {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         String inputFileName = "Dummy";
         String outputFileName = "Dummy";
-        final String path = "/home/user0022/Github/GCTC-Challenges/05_Wipro/PBLapp/src/com/ioOperations/";
+        String path = "/home/user0022/Github/GCTC-Challenges/05_Wipro/PBLapp/src/com/ioOperations/";
 
         try {
             System.out.println("Enter the input file name : "); // input1.txt

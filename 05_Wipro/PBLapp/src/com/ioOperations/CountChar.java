@@ -13,10 +13,10 @@ public class CountChar {
         String fileName = "Dummy";
         int findChar = '~';
         int count = 0;
-        String path = "/home/user0022/Github/GCTC-Challenges/05_Wipro/PBLapp/src/com/ioOperations/";
+        final String path = "/home/user0022/Github/GCTC-Challenges/05_Wipro/PBLapp/src/com/ioOperations/";
 
         try {
-            System.out.println("Enter the file name : ");
+            System.out.println("Enter the file name : "); // input1.txt
             fileName = bf.readLine();
 
         } catch (IOException e) {

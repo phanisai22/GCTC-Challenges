@@ -1,4 +1,4 @@
-package com.Abstraction.RailCoach;
+package com.abstraction.railcoach;
 
 public class Luggage extends Compartment {
 
