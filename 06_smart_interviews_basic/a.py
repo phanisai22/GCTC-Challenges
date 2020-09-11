@@ -1,5 +1,10 @@
 s = input()
-if 'A' <= s[0] <= 'Z':
-    print(s)
+
+r = 'HQ9'
+
+for i in r:
+    if i in s:
+        print("YES")
+        break
 else:
-    print(s[0].upper() + s[1:])
+    print("NO")
