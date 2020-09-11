@@ -1,3 +1,4 @@
+command=/app/jdk/bin/javadoc
 content_assist_autoactivation_triggers_java=.qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM
 content_assist_autoinsert=true
 content_assist_disable_completion_trigger_chars=true

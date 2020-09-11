@@ -2,10 +2,10 @@ package com.oops.book;
 
 public class Book {
 	
-	String name;
-	Author author;
-	double price;
-	int qtyInStock;
+	private String name;
+	private Author author;
+	private double price;
+	private int qtyInStock;
 	
 	public Book(String name, Author author, double price, int qtyInStock) {
 		super();

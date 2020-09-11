@@ -118,4 +118,48 @@
 		<item key="DIALOG_HEIGHT" value="680"/>
 		<item key="DIALOG_FONT_NAME" value="1|Noto Sans|10.0|0|GTK|1|"/>
 	</section>
+	<section name="JavadocWizardDialog">
+		<item key="DIALOG_X_ORIGIN" value="645"/>
+		<item key="DIALOG_Y_ORIGIN" value="108"/>
+		<item key="DIALOG_WIDTH" value="606"/>
+		<item key="DIALOG_HEIGHT" value="647"/>
+		<item key="DIALOG_FONT_NAME" value="1|Noto Sans|10.0|0|GTK|1|"/>
+	</section>
+	<section name="javadoc">
+		<item key="javadoc_command_history" value="/app/jdk/bin/javadoc"/>
+		<item key="fromStandard" value="true"/>
+		<item key="docletname" value=""/>
+		<item key="docletpath" value=""/>
+		<item key="access" value="public"/>
+		<item key="use" value="true"/>
+		<item key="author" value="true"/>
+		<item key="version" value="true"/>
+		<item key="nodeprecated" value="false"/>
+		<item key="nodeprecatedlist" value="false"/>
+		<item key="splitindex" value="true"/>
+		<item key="noindex" value="false"/>
+		<item key="notree" value="false"/>
+		<item key="nonavbar" value="false"/>
+		<item key="openinbrowser" value="false"/>
+		<item key="source" value="11"/>
+		<item key="antpath" value="/home/user0022/Github/GCTC-Challenges/05_Wipro/PBLapp/javadoc.xml"/>
+		<item key="destdir" value="/home/user0022/Github/GCTC-Challenges/05_Wipro/PBLapp/doc"/>
+		<section name="projects">
+			<section name="ClassWork">
+				<item key="href" value=""/>
+				<item key="destdir" value="/home/user0022/Github/GCTC-Challenges/05_Wipro/ClassWork/doc"/>
+				<item key="antpath" value="/home/user0022/Github/GCTC-Challenges/05_Wipro/ClassWork/javadoc.xml"/>
+			</section>
+			<section name="JunitLearning">
+				<item key="href" value=""/>
+				<item key="destdir" value="/home/user0022/Github/GCTC-Challenges/05_Wipro/JunitLearning/doc"/>
+				<item key="antpath" value="/home/user0022/Github/GCTC-Challenges/05_Wipro/JunitLearning/javadoc.xml"/>
+			</section>
+			<section name="PBLapp">
+				<item key="href" value=""/>
+				<item key="destdir" value="/home/user0022/Github/GCTC-Challenges/05_Wipro/PBLapp/doc"/>
+				<item key="antpath" value="/home/user0022/Github/GCTC-Challenges/05_Wipro/PBLapp/javadoc.xml"/>
+			</section>
+		</section>
+	</section>
 </section>
