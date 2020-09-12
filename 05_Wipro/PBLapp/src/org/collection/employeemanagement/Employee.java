@@ -1,4 +1,4 @@
-package org.collection.EmployeeManagement;
+package org.collection.employeemanagement;
 
 /**
  * An application can store all the employee related details.

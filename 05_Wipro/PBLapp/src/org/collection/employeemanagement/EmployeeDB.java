@@ -1,4 +1,4 @@
-package org.collection.EmployeeManagement;
+package org.collection.employeemanagement;
 
 import java.util.ArrayList;
 import java.util.Iterator;

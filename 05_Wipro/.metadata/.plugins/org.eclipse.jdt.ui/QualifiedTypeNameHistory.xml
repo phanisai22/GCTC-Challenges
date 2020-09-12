@@ -49,4 +49,6 @@
     <fullyQualifiedTypeName name="com.Package.automobile.ship.Cubiod"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="org.junit.Test"/>
+    <fullyQualifiedTypeName name="java.util.Vector"/>
+    <fullyQualifiedTypeName name="org.collection.employeemanagement.Employee"/>
 </qualifiedTypeNameHistroy>
