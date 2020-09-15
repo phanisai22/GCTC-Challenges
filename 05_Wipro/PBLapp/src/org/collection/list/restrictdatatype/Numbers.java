@@ -1,4 +1,4 @@
-package org.collection.restrictdatatype;
+package org.collection.list.restrictdatatype;
 
 /**
  * Class allows data which is a strictly a number (integer, float, double, etc).

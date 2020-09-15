@@ -1,4 +1,4 @@
-package org.collection.employeemanagement;
+package org.collection.list.employeemanagement;
 
 /**
  * Implementations to test the program.

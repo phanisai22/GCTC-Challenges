@@ -1,4 +1,4 @@
-package org.collection.employeemanagement;
+package org.collection.list.employeemanagement;
 
 /**
  * An application can store all the employee related details.
@@ -8,7 +8,7 @@ package org.collection.employeemanagement;
  */
 public class Employee {
     /**
-     * All posible employee details to store.
+     * All possible employee details to store.
      */
     private int empID;
     private String empName;

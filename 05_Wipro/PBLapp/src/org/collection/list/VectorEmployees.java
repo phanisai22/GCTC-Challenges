@@ -1,10 +1,10 @@
-package org.collection;
+package org.collection.list;
 
 import java.util.Iterator;
 import java.util.List;
 import java.util.Vector;
 
-import org.collection.employeemanagement.Employee;
+import org.collection.list.employeemanagement.Employee;
 
 /**
  * Testing vector which is capable of storing Employee objects from package

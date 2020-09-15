@@ -1,4 +1,4 @@
-package org.collection.restrictdatatype;
+package org.collection.list.restrictdatatype;
 
 import java.util.ArrayList;
 import java.util.List;
